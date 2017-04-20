@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-import os, random
-from twisted.internet import reactor
+import os
 ''' Conversion project '''
 __developer__ = 'Tevarone'
 __date__ = '20/4/2017'
