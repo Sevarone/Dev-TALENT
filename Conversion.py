@@ -5,8 +5,8 @@ __developer__ = 'Tevarone'
 __date__ = '20/4/2017'
 class Conversion:
 	def __init__(self):
-		self.convert_from = ['Tokens', 'Chars']
-		self.convert_to = ['Tokens', 'Chars']
+		self.chars = {'Chars':1}
+		self.tokens = {'Tokens':2}
 				
 	def convert(self, mode):
 		os.system('color b')
@@ -15,10 +15,10 @@ class Conversion:
 		print('Conversions:\n[1]: Chars\n[2]: Tokens')
 		self.input = input()
 		self.input('Type conversion mode: ')
-		if mode in ['1', 'Chars']:
+		if mode in self.chars:
 			packet = self.input('[CHAR]: ') # convert char to token
 			print(ord(pakcet)
-		elif mode in ['2', 'Tokens']:
+		elif mode in self.tokens:
 			packet = self.input('[TOKEN]: ') # convert token to char
 			print(chr(str(packet))
 					
