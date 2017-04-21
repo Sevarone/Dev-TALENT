@@ -34,5 +34,6 @@ class Conversion
 			print('[CHAR]: {0}'.format(packet))
 			time(6)
 			close()
+      
 if __name__ == '__main__':
 	Conversion()
