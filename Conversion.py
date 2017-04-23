@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import os
+import os, time
 # Simple Conversion Type Script(Python)
 __developer__ = 'Tevar'
 __date__ = '20/4/2017' # Day/Month/Year
@@ -19,7 +19,7 @@ class Conversion
 			convert_start(B)
 		else:
 			print('Please choose A or B')
-			time(3)
+			time.sleep(3)
 			close()
 
 	def convert_start(self, mode): # conversion start
@@ -27,12 +27,12 @@ class Conversion
 		if mode == __char__:
 			packet = ord(self.input('[CHAR]: '))
 			print('[TOKEN]: {0}'.format(packet))
-			time(6)
+			time.sleep(6)
 			close()
 		elif mode == __token__:
 			packet = repr(self.input('[TOKEN]: '))
 			print('[CHAR]: {0}'.format(packet))
-			time(6)
+			time.sleepww(6)
 			close()
       
 if __name__ == '__main__':
