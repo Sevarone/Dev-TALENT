@@ -1,2 +1,2 @@
 # Welcome to Pytbon-Scripts
-* Will get here some scripts of python
+Will get here some scripts of python
